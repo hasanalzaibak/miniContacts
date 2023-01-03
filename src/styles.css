@@ -1,0 +1,162 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Lato";
+    transition: 400ms;
+}
+
+*::selection {
+    background-color: grey;
+    color: #F2F2F2;
+}
+
+
+body {
+    background-color: #F2F2F2;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+    margin-top: 4rem;
+
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+
+}
+
+h1 {
+    font-size: 3rem;
+    color: #F2295F;
+    margin-bottom: 4rem;
+    margin-left: -0.2rem;
+    font-weight: 300;
+    
+}
+
+h3 {
+    font-size: 1.2rem;
+    font-weight: 400;
+    padding: 0.2rem 0rem;
+    border-bottom: 1px solid #F2F2F2;
+}
+
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1.2rem;
+    background-color: #F2295F;
+    color: #F2F2F2;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+    border-top-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    width: 90vw;
+    max-width: 842px;
+}
+
+.contact:hover {
+    background-color: #DB0D44;
+
+}
+
+.contact-name {
+    margin-right: 1rem;
+}
+
+
+p {
+    padding: 0.2rem 0rem;
+}
+
+.contact-buttons {
+    display: flex;
+    gap: 1rem;
+}
+
+.contact-buttons button {
+    border: none;
+    padding: 0.5rem;
+    outline: none;
+    border-radius: 50%;
+    background-color: #F2BBC5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button img {
+    width: 20px;
+}
+
+.contact-buttons button:hover {
+    background-color: #EA90A0;
+}
+
+.main-button {
+    border: none;
+    color: #F2F2F2;
+    padding: 1rem;
+    outline: none;
+    border-radius: 0.8rem;
+    background-color: #F2295F;
+    font-weight: 700;
+    font-size: 1.1rem;
+    margin-top: 3rem;
+    width: 20rem;
+    border-top-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    font-weight: 500;
+}
+
+.main-button-back {
+    margin-top: -0.5rem;
+    position: absolute;
+    left: 0rem;
+    top: 1rem;    
+    padding: 1rem;
+    border: none;
+    background-color: #F2F2F2;
+}
+
+.main-button-back img {
+    filter: invert(43%) sepia(80%) saturate(6159%) hue-rotate(327deg) brightness(95%) contrast(100%);
+}
+
+.main-button:hover {
+    background-color: #DB0D44;
+}
+
+.create {
+    height: 35vh;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+}
+
+.box {
+    padding: 1.5rem 2rem;
+    width: 90vw;
+    outline: none;
+    font-size: 1.1rem;
+    border-radius: 0.8rem;
+    border: none;
+    outline: none;
+    border-top-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    max-width: 842px;
+}
